@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador de AMCYX</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Buscador de Películas y Series AMCYX</h1>
+    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+    <select id="genreSelect">
+      <option value="">Todas las categorías</option>
+      <option value="contenidos más vistos">Contenidos más vistos</option>
+      <option value="populares">Series populares</option>
+      <option value="terror">Peliculas de terror</option>
+      <option value="documentales">Documentales</option>
+    
+    </select>
+    <button onclick="searchMovies()">Buscar</button>
+    <div id="moviesList"></div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>

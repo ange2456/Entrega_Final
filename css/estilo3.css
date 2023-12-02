@@ -1,0 +1,131 @@
+body {
+  background-color: #FF66C4;
+}
+.logo{
+   width:130px;
+}
+.formulario{
+   padding:20px;
+   background:linear-gradient(30grad,#FF66C4,#FFDE59);
+   position:relative;
+   color: white;
+   box-shadow: 0 15px 6px -6px rgba(0,0,0,0.568);
+   z-index:1;
+}
+.formuario::after{
+   content:"";
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(#407795db,#526286e5);
+   z-index: -1;
+
+
+}
+.caja{
+  border:none;
+  border-radius:0%;
+  outline: none;
+  box-shadow:none;
+  color:white;
+  background-color: rgba(255,255,255,0.274);
+  transition:0.5s;
+
+}
+
+.caja:hover{
+  background-color: rgba(255,255,255,0.274);
+  transform: translate3d(5px,0px,5px);
+  box-shadow: none;
+
+}
+.caja:focus{
+  background-color: rgba(255,255,255,0.274);
+  transform: translate3d(5px,0px,5px);
+  box-shadow: none;
+
+}
+.caja::placeholder{
+ color:white;
+ font-style: oblique;
+
+}
+.boton{
+ background-color:white;
+ border-radius: 0%;
+ border: none;
+ font-weight: 700;
+ transition: 0.5s all; 
+ color: rgb(88,171,199);
+
+}
+.boton:hover{
+ color: #e2d8e4;
+
+}
+
+.registrate{
+ font-weight: 700;
+
+}
+.links{
+ background-color:white;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 13px;
+ padding-right: 13px;
+ border-radius: 50px;
+ color: #72467c;
+ transition: 0.5s all; 
+
+}
+.links:hover{
+ color: #c6b1c9;
+ background-color:#72467c ;
+ box-shadow: 0 0 5px white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

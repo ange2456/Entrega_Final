@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/poster.png);
+	font-family: Arial, sans-serif;
+	background-size: cover;
+  }
+
+  
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	border: none;
+	border-radius: 8px;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+  }
+  
+  input[type="text"],
+  select {
+	width: calc(100% - 80px);
+	padding: 8px;
+	margin-bottom: 10px;
+  }
+  
+  button {
+	padding: 8px 16px;
+	background-color:plum;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color:blueviolet;
+  }
+  
+  .movie {
+	margin-bottom: 8px;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+  }
+  
